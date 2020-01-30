@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 01/30/20 22:48:36
+=======
+﻿Log file open, 01/30/20 17:45:51
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 01/30/20 17:45:51
 >>>>>>> Stashed changes
@@ -14,7 +18,11 @@ LogInit: Display: Running engine for game: P1
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogStats: Stats thread started at 0.092982
+=======
+LogStats: Stats thread started at 0.076272
+>>>>>>> Stashed changes
 =======
 LogStats: Stats thread started at 0.076272
 >>>>>>> Stashed changes
@@ -171,6 +179,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2020.01.30-21.48.36:966][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.01.30-21.48.36:966][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -1068,6 +1077,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.30-21.49.40:902][712]LogExit: Exiting.
 [2020.01.30-21.49.40:915][712]Log file closed, 01/30/20 22:49:40
 =======
+=======
+>>>>>>> Stashed changes
 [2020.01.30-16.45.51:207][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.01.30-16.45.51:207][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.01.30-16.45.51:207][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Lara/Desktop/MotorsDeJoc_Prac1_Def/P1/Saved/Config/Windows/Engine.ini]
@@ -1911,4 +1922,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.30-16.48.31:997][513]LogD3D11RHI: CleanupD3DDevice
 [2020.01.30-16.48.32:007][513]LogExit: Exiting.
 [2020.01.30-16.48.32:011][513]Log file closed, 01/30/20 17:48:32
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
