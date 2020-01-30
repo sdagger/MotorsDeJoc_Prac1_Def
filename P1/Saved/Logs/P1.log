@@ -2645,4 +2645,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.30-17.31.21:681][672]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.160
 [2020.01.30-17.31.21:696][672]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2020.01.30-17.31.21:696][672]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+<<<<<<< HEAD
+>>>>>>> parent of 092b2c3... meshes
+=======
 >>>>>>> parent of 092b2c3... meshes
