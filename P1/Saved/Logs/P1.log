@@ -616,3 +616,253 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.30-17.03.02:010][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
 [2020.01.30-17.03.03:252][ 29]LogSlate: Window 'Message Log' being destroyed
 [2020.01.30-17.03.03:257][ 29]LogSlate: Window 'Message Log' being destroyed
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: request failed, libcurl error: 28 (Timeout was reached)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 1 (Closing connection 0)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 3 (  Trying 34.203.132.217...)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 4 (TCP_NODELAY set)
+[2020.01.30-17.06.21:810][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (34.203.132.217) port 443 (#1))
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 8 (SSL re-using session ID)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.01.30-17.06.21:811][787]LogHttp: Warning: 000001FA9728F240: libcurl info message cache 12 (Closing connection 1)
+[2020.01.30-17.06.22:145][788]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.07.48:241][925]Cmd: TRANSACTION UNDO
+[2020.01.30-17.07.48:241][925]LogEditorTransaction: Undo Create Folder
+[2020.01.30-17.07.48:298][925]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.30-17.08.33:607][251]LogHttp: Warning: 000001FA90074900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.08.33:607][251]LogHttp: Warning: 000001FA90074900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.01.30-17.08.33:607][251]LogHttp: Warning: 000001FA90074900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2020.01.30-17.08.33:607][251]LogHttp: Warning: 000001FA90074900: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.01.30-17.08.33:607][251]LogHttp: Warning: 000001FA90074900: libcurl info message cache 2 (Closing connection 2)
+[2020.01.30-17.08.33:656][252]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.09.01:718][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.01.30-17.09.01:771][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.01.30-17.09.02:900][950]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/ThirdPersonExampleMapD49A3FEF44416707098928A8161E4793.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.30-17.09.02:920][950]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.177
+[2020.01.30-17.09.02:937][950]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.30-17.09.02:937][950]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.30-17.09.19:612][363]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/interiorMesh.interiorMesh
+[2020.01.30-17.09.20:071][363]LogRenderer: Reallocating scene render targets to support 1144x704 Format 10 NumSamples 1 (Frame:1).
+[2020.01.30-17.09.20:071][363]LogSlate: Took 0.004084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.30-17.09.22:444][459]LogSlate: Window 'interiorMesh' being destroyed
+[2020.01.30-17.10.09:428][246]LogEditorTransaction: Undo Clicking on Actors
+[2020.01.30-17.10.10:096][279]LogEditorTransaction: Undo Clicking on Actors
+[2020.01.30-17.10.27:413][ 57]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh1.mesh1
+[2020.01.30-17.10.48:948][337]LogEditorTransaction: Undo Remove Collision
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: request failed, libcurl error: 28 (Timeout was reached)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 0 (  Trying 54.172.15.98...)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 1 (TCP_NODELAY set)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.172.15.98) port 443 (#3))
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 5 (SSL re-using session ID)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 7 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: 000001FB1B5739C0: libcurl info message cache 8 (Closing connection 3)
+[2020.01.30-17.11.33:690][872]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.11.48:128][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh1" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh1.uasset" SILENT=true
+[2020.01.30-17.11.48:143][736]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh13DE8FEBF4053DADB2C411A95D6B5A061.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh1.uasset'
+[2020.01.30-17.11.48:162][736]AssetCheck: New page: Asset Save: mesh1
+[2020.01.30-17.11.48:162][736]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh1.mesh1
+[2020.01.30-17.12.07:573][898]LogEditorTransaction: Undo Create Box Collision
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fae38bff70 [can pipeline])
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.208.102) port 443 (#4))
+[2020.01.30-17.15.01:310][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.30-17.15.01:311][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.30-17.15.01:311][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.30-17.15.01:311][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.30-17.15.01:311][827]LogHttp: Warning: 000001FB1B5711C0: libcurl info message cache 7 (Closing connection 4)
+[2020.01.30-17.15.01:642][828]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fae38bff70 [can pipeline])
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.232.217.203) port 443 (#5))
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: 000001FB1B571D00: libcurl info message cache 7 (Closing connection 5)
+[2020.01.30-17.19.01:447][542]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.19.02:213][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.01.30-17.19.02:215][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.030
+[2020.01.30-17.19.02:216][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/interiorMesh] ([1] browsable assets)...
+[2020.01.30-17.19.02:232][543]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/interiorMesh.interiorMesh]
+[2020.01.30-17.19.02:232][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/interiorMesh]
+[2020.01.30-17.19.02:232][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/interiorMesh" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/Autosaves/Game/Meshes/interiorMesh_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.30-17.19.02:243][543]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/interiorMesh_Auto1EC8B3581404FA0A27CFEFEAD413F0DD3.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/Autosaves/Game/Meshes/interiorMesh_Auto1.uasset'
+[2020.01.30-17.19.02:247][543]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fae38bff70 [can pipeline])
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.227.199.206) port 443 (#6))
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.30-17.23.01:537][257]LogHttp: Warning: 000001FAB68F4E00: libcurl info message cache 7 (Closing connection 6)
+[2020.01.30-17.23.01:874][258]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.24.53:574][408]LogEditorTransaction: Undo Remove Collision
+[2020.01.30-17.24.58:971][716]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.24.58:971][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.25.04:682][831]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh2.mesh2
+[2020.01.30-17.25.07:400][934]LogSlate: Window 'mesh2' being destroyed
+[2020.01.30-17.25.07:407][935]LogRenderer: Reallocating scene render targets to support 1428x880 Format 10 NumSamples 1 (Frame:7225).
+[2020.01.30-17.25.19:780][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh2" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh2.uasset" SILENT=true
+[2020.01.30-17.25.19:791][673]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh2FBFA5D52485A591B3543DCB8CA894A7C.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh2.uasset'
+[2020.01.30-17.25.19:804][673]AssetCheck: New page: Asset Save: mesh2
+[2020.01.30-17.25.19:804][673]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh2.mesh2
+[2020.01.30-17.25.22:362][775]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.25.22:362][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.25.49:043][910]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh3.mesh3
+[2020.01.30-17.26.04:355][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh3" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh3.uasset" SILENT=true
+[2020.01.30-17.26.04:368][226]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh3F1F361CD47DF229E480F078CD4664D4C.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh3.uasset'
+[2020.01.30-17.26.04:386][226]AssetCheck: New page: Asset Save: mesh3
+[2020.01.30-17.26.04:386][226]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh3.mesh3
+[2020.01.30-17.26.06:103][257]LogSlate: Window 'mesh3' being destroyed
+[2020.01.30-17.26.06:116][257]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.26.06:116][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.26.09:106][304]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh5.mesh5
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fae38bff70 [can pipeline])
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 1 (Re-using existing connection! (#7) with host datarouter.ol.epicgames.com)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.73.243.175) port 443 (#7))
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: 000001FB27FF9300: libcurl info message cache 7 (Closing connection 7)
+[2020.01.30-17.26.14:899][400]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.26.29:010][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh5" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh5.uasset" SILENT=true
+[2020.01.30-17.26.29:022][695]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh5B272453941469B12E06CB7BD2226F920.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh5.uasset'
+[2020.01.30-17.26.29:041][695]AssetCheck: New page: Asset Save: mesh5
+[2020.01.30-17.26.29:041][695]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh5.mesh5
+[2020.01.30-17.26.30:245][717]LogSlate: Window 'mesh5' being destroyed
+[2020.01.30-17.26.30:256][717]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.26.30:257][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.26.34:087][782]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh6.mesh6
+[2020.01.30-17.26.42:667][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh6" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh6.uasset" SILENT=true
+[2020.01.30-17.26.42:677][926]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh6F623FBC54FE7F9ECF2C144974C5C586E.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh6.uasset'
+[2020.01.30-17.26.42:696][926]AssetCheck: New page: Asset Save: mesh6
+[2020.01.30-17.26.42:696][926]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh6.mesh6
+[2020.01.30-17.26.43:948][949]LogSlate: Window 'mesh6' being destroyed
+[2020.01.30-17.26.44:009][949]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.26.44:009][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.26.46:357][987]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh7.mesh7
+[2020.01.30-17.26.59:640][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh7" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh7.uasset" SILENT=true
+[2020.01.30-17.26.59:651][210]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh7CFF334B148B2553991ECDEA21E249B54.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh7.uasset'
+[2020.01.30-17.26.59:669][210]AssetCheck: New page: Asset Save: mesh7
+[2020.01.30-17.26.59:669][210]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh7.mesh7
+[2020.01.30-17.27.00:874][232]LogSlate: Window 'mesh7' being destroyed
+[2020.01.30-17.27.00:886][232]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.27.00:886][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.27.02:238][254]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/mesh8.mesh8
+[2020.01.30-17.27.08:302][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh8" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh8.uasset" SILENT=true
+[2020.01.30-17.27.08:313][357]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh891D5510E45759EAEC496518C9B50AA50.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh8.uasset'
+[2020.01.30-17.27.08:330][357]AssetCheck: New page: Asset Save: mesh8
+[2020.01.30-17.27.08:330][357]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh8.mesh8
+[2020.01.30-17.27.09:636][381]LogSlate: Window 'mesh8' being destroyed
+[2020.01.30-17.27.09:648][381]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.27.09:648][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.27.15:566][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh1" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh1.uasset" SILENT=true
+[2020.01.30-17.27.15:571][546]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/mesh1DF8D25354E07141B8A4D44AEA5207DDC.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/mesh1.uasset'
+[2020.01.30-17.27.15:584][546]AssetCheck: New page: Asset Save: mesh1
+[2020.01.30-17.27.15:584][546]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh1.mesh1
+[2020.01.30-17.27.16:555][604]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.27.16:555][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.27.20:110][660]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/interiorMesh.interiorMesh
+[2020.01.30-17.27.37:181][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/interiorMesh" FILE="D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/interiorMesh.uasset" SILENT=true
+[2020.01.30-17.27.37:186][674]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/interiorMesh88BECC7D4262DC7686210086BD968F97.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/Meshes/interiorMesh.uasset'
+[2020.01.30-17.27.37:199][674]AssetCheck: New page: Asset Save: interiorMesh
+[2020.01.30-17.27.37:199][674]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/interiorMesh.interiorMesh
+[2020.01.30-17.27.38:087][727]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.27.38:087][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.27.40:802][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.01.30-17.28.54:721][139]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.30-17.28.54:728][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-17.28.54:728][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.30-17.28.54:733][139]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 30, 2020, 7:28:54 PM)
+[2020.01.30-17.28.54:734][139]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.01.30-17.28.54:735][139]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.01.30-17.28.54:735][139]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.30-17.28.54:985][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.249859s)
+[2020.01.30-17.28.54:986][139]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.30-17.28.54:986][139]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2020.01.30-17.28.54:986][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.251154s)
+[2020.01.30-17.28.55:013][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.30-17.28.55:014][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.30-17.28.55:014][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.30-17.28.55:015][139]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.30-17.28.55:015][139]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Name: Speaker / Headphone (Realtek(R) Audio)
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Is Default: Yes
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: Channel Order:
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.30-17.28.55:021][139]LogAudioMixer: Display: 1: FrontRight
+[2020.01.30-17.28.55:049][139]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2020.01.30-17.28.55:050][139]LogInit: FAudioDevice initialized.
+[2020.01.30-17.28.55:060][139]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.30-17.28.55:067][139]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.30-18.28.55
+[2020.01.30-17.28.55:067][139]LogWorld: Bringing up level for play took: 0.005590
+[2020.01.30-17.28.55:067][139]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.01.30-17.28.55:072][139]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.01.30-17.28.55:073][139]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.261
+[2020.01.30-17.28.55:073][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-17.29.44:952][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-17.29.44:980][306]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.01.30-17.29.44:999][306]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.01.30-17.29.44:999][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-17.29.45:000][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.30-17.29.45:000][306]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.30-17.29.45:000][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-17.29.45:000][306]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.30-17.29.45:000][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.29.45:075][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.30-17.29.45:075][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.30-17.29.45:078][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.30-17.29.45:101][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.30-17.29.45:107][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.30-17.29.45:112][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.01.30-17.29.45:136][307]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.01.30-17.30.44:767][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh3)
+[2020.01.30-17.30.48:034][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh4)
+[2020.01.30-17.30.57:161][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh5)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fae38bff70 [can pipeline])
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.236.189) port 443 (#9))
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: 000001FAFD1A9580: libcurl info message cache 7 (Closing connection 9)
+[2020.01.30-17.31.01:255][234]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AB17CA1-442E-B793-6569-C6ABBC820620%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.30-17.31.20:499][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.01.30-17.31.20:549][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.01.30-17.31.21:663][672]LogSavePackage: Moving 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Saved/ThirdPersonExampleMap03454386489AB4CED6EB3DAFA0AE86C3.tmp' to 'D:/P1 MOTORS VERSIO DEFINITIVA/MotorsDeJoc_Prac1_Def/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.30-17.31.21:681][672]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.160
+[2020.01.30-17.31.21:696][672]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.30-17.31.21:696][672]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
